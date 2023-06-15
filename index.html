@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu bar -->
+    <div class="content-header">
+        <header>
+            <div class="logo">
+                <a href="#">Uni!icorn</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="selectionr()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="selectionr()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="selectionr()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="selectionr()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="selectionr()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </header>
+    </div>
+
+    <!-- Home section -->
+    <section id="home" class="home">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="/images/profile.png" alt="" height="200px">
+                <h1>KSHITISH SANDHIBIGRAHA</h1>
+                <h2>Frontend-Web Devloper</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-skype"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about me -->
+    <section id="aboutme" class="aboutme">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hello, I'm Kshitish Sandhibigraha.</span> a passionate front-end developer dedicated to crafting exceptional web experiences. With a strong background in front-end technologies and a keen eye for design, I strive to create intuitive and visually appealing websites that engage and delight users.</p>
+
+            <div class="fila">
+
+                <!-- personal information -->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Date of Birth</strong>
+                            03/03/2000
+                        </li>
+                        <li>
+                            <strong>Telephone</strong>
+                            9090753565
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            kshitish18th@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Jajpur Town, Odisha
+                        </li>
+                        <li>
+                            <strong>Post</strong>
+                            <span>designer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intrests -->
+
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="content-interest">
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Games</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Music</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Travel</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-pen-fancy"></i>
+                            <span>Designing</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>hiking</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Photography</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>Gym</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>Cycling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- section skills -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- technical skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="progress javascript">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Tailwind CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress tailwind">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="skill-bar">
+                            <div class="progress MySQL">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="skill-bar">
+                            <div class="progress photoshop">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- professional skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="skill-bar">
+                            <div class="progress communication">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Team work</span>
+                        <div class="skill-bar">
+                            <div class="progress teamwork">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skill-bar">
+                            <div class="progress creativity">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skill-bar">
+                            <div class="progress dedication">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="skill-bar">
+                            <div class="progress management">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <!-- left -->
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Master of Computer Application (MCA)</h4>
+                        <span class="casa">GIFT college, Bhubaneswar</span>
+                        <span class="date">2021 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempore tenetur natus ut nostrum sapiente reiciendis, eius dolorum doloribus delectus voluptas laudantium, quisquam itaque accusamus unde eligendi magnam provident! Dicta?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Bachelor of Computer and Application (BCA)</h4>
+                        <span class="casa">NC college, Jajpur</span>
+                        <span class="date">2017 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam repellat, esse
+                            perferendis blanditiis porro at enim error quisquam deleniti sunt reprehenderit suscipit
+                            corporis ipsum. Voluptates fugiat odit cum incidunt!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Higher Secondary </h4>
+                        <span class="casa">Chitalo Mahavidyalaya, Jajpur</span>
+                        <span class="date">2015 - 2017</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam repellat, esse
+                            perferendis blanditiis porro at enim error quisquam deleniti sunt reprehenderit suscipit
+                            corporis ipsum. Voluptates fugiat odit cum incidunt!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <!-- right -->
+                    <h3>Work Experience</h3>
+                    <div class="item der">
+                        <h4>Frontend-Developer</h4>
+                        <span class="casa">Google</span>
+                        <span class="date">2022 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam repellat, esse
+                            perferendis blanditiis porro at enim error quisquam deleniti sunt reprehenderit suscipit
+                            corporis ipsum. Voluptates fugiat odit cum incidunt!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Frontend-Developer</h4>
+                        <span class="casa">Razorpay</span>
+                        <span class="date">2022 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam repellat, esse
+                            perferendis blanditiis porro at enim error quisquam deleniti sunt reprehenderit suscipit
+                            corporis ipsum. Voluptates fugiat odit cum incidunt!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Frontend-Developer</h4>
+                        <span class="casa">Infosys</span>
+                        <span class="date">2022 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam repellat, esse
+                            perferendis blanditiis porro at enim error quisquam deleniti sunt reprehenderit suscipit
+                            corporis ipsum. Voluptates fugiat odit cum incidunt!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="galary">
+                <div class="project">
+                    <img src="images/img1.jpg" alt="" srcset="">
+                    <div class="overlay">
+                        <h3>Landingpage</h3>
+                        <p>Website</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="images/img2.jpg" alt="" srcset="">
+                    <div class="overlay">
+                        <h3>Travel</h3>
+                        <p>Website</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/images/img3.jpg" alt="" srcset="">
+                    <div class="overlay">
+                        <h3>Registration form</h3>
+                        <p>Website</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/images/img4.jpg" alt="" srcset="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/images/img5.jpg" alt="" srcset="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="/images/img6.jpg" alt="" srcset="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section Contact -->
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>CONTACT</h2>
+            <div class="file">
+                <!-- form -->
+                <div class="col">
+                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="phone">
+                    <input type="text" placeholder="email">
+                    <input type="text" placeholder="subject">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="your messege"></textarea>
+                    <button>
+                        Send Messege <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- map -->
+
+                <div class="col">
+                    <img src="/images/gift-colege-map-kt.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Gramadhia, Khurda, Odisha
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Phone: +91 9090753565
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: kshitish18th@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="above">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
